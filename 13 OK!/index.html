@@ -8,23 +8,28 @@
     <script src="index.js"></script>
 </head>
 <body>
+    <center>
 
-    <h1>Calculator Basic</h1>
-    <p>Ente the values to be calculated</p>
+        <h1>Calculator Basic</h1>
+        <p>Ente the values to be calculated</p>
 
-    <form>
-        <label for="n1">First value</label><br>
-        <input type="text" id="n1" name="n1"><br>
-        <label for="n2">Second value</label><br>
-        <input type="text" id="n2" name="n2">
-        <input type="button" onclick="calc()" value="Calc.">
-    </form>
+        <form>
+            <label for="n1">First value</label><br>
+            <input type="number" id="n1" name="n1"><br>
+            <label for="op">Select this operation:</label><br>
+            <select name="op" id="op">
+                <option value="Select"></option>
+                <option value="+">Sum ( + )</option>
+                <option value="-">Sub ( - )</option>
+                <option value="*">Mult ( * )</option>
+                <option value="/">Div ( / )</option>
+            </select><br>
+            <label for="n2">Second value</label><br>
+            <input type="number" id="n2" name="n2"><br><br>
+            <input type="button" onclick="calc()" value="Calc.">
+        </form>
 
-    <p id="saida"></p>
-    <p id="saida1"></p>
-    <p id="saida2"></p>
-    <p id="saida3"></p>
-    <p id="saida4"></p>
-
+        <p id="saida"></p>
+    </center>
 </body>
 </html>
