@@ -2,9 +2,13 @@ function month(){
     let code = document.getElementById("code").value;
     let text = "";
 
-    document.getElementById("saida").innerHTML = `The month corresponding the ${code} é:`;
-
+    document.getElementById("saida").innerHTML = `The month corresponding the digit ${code} is:`;
+    
     switch(code){
+        case "Select":
+        text = "Please, fill in correctly";
+        break;
+        
         case "1":
         text = "You are in January";
         break;

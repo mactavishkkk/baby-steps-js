@@ -8,20 +8,26 @@
     <script src="index1.js"></script>
 </head>
 <body>
-    
-    <h1>Tablet Basic</h1>
-    <p>Enter a number and its operation corresponding to the</p>
 
-    <form>
-        <label for="n1">Value</label><br>
-        <input type="text" id="n1" name="n1"><br><br>
-        <label for="ope">Select one of operators [+ | - | * | / ]</label><br>
-        <input type="text" id="ope" name="ope"><br><br>
-        <input type="button" onclick="tab()" value="Display">
-    </form>
+    <center>
+        <h1>Tablet Basic</h1>
+        <p>Enter a number and its operation corresponding to the</p>
 
-    <h3 id="saida"></h3>
-    <p id="saida1"></p>
+        <form>
+            <label for="n1">Value</label><br>
+            <input type="text" id="n1" name="n1"><br><br>
+            <select name="ope" id="ope">
+                <option value="+">Sum</option>
+                <option value="-">Sub</option>
+                <option value="*">Mult</option>
+                <option value="/">Div</option>
+            </select><br><br>
+            <input type="button" onclick="tab()" value="Display">
+        </form>
+
+        <h3 id="saida"></h3>
+        <p id="saida1"></p>
+    </center>
 
 </body>
 </html>
