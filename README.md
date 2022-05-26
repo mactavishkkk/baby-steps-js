@@ -5,8 +5,7 @@ Sumário
 * 13 - Calculadora
 * 14 - Tabuada
 * 15 - Calendário
-* 16 - Espelho de números
-* 17 - Extração de números
-* 18 - Extração de números pares
-* 19 - Extração do triplo
-* 20 - 
+* 16 - Espelhamento de números
+* 17 - Extração dos números em meio a strings
+* 18 - Extração apenas de números pares
+* 19 - Triplicando cada item do array
