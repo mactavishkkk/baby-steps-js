@@ -1,25 +1,22 @@
-const eleMentos = [];
-const eleMentos1 = [];
+const numeros = [];
+const triplo = [];
 
 function dispArr(){
     let eleMent = document.getElementById("element").value;
-
-    eleMentos.push(eleMent)
-
-    document.getElementById("saida").innerHTML = eleMentos;
-
+    numeros.push(eleMent);
+    document.getElementById("saida").innerHTML = numeros;
 }
 
 function dispArr1(){
-    let x = (eleMentos.length)-1;
+    let x = (numeros.length)-1;
     for(let i = 0; i <= x; i++){
-        if((eleMentos[i] % 2) == 0){
-            eleMentos1.push(eleMentos[i] * 3);
-        }else if((eleMentos[i] % 2) == 1){
-            eleMentos1.push(eleMentos[i] * 3);
+        if((numeros[i] % 2) == 0){
+            triplo.push(numeros[i] * 3);
+        }else if((numeros[i] % 2) == 1){
+            triplo.push(numeros[i] * 3);
     }
 }
 
-    document.getElementById("saida").innerHTML = eleMentos;
-    document.getElementById("saida1").innerHTML = eleMentos1;
+    document.getElementById("saida").innerHTML = numeros;
+    document.getElementById("saida1").innerHTML = triplo;
 }
