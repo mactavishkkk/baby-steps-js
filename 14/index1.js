@@ -18,7 +18,7 @@ function tab() {
                 text += numx + " x " + numi + " = " + (Number(numx) * Number(numi)) + '<br>'; 
             break;
             case "/":
-                text += (Number(numx) * Number(numi)) + " / " + numi + " = " + (Number(numx) * Number(numi) / numx) + '<br>'; 
+                text += (Number(numx) * Number(numi)) + " / " + numx + " = " + (Number(numx) * Number(numi) / numx) + '<br>'; 
             break;            
         }
     }
